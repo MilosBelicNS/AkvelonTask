@@ -8,7 +8,7 @@ namespace AkvelonTaskMilosBelic.Models
 {
     public class ModelsDbContext : DbContext
     {
-
+        //Installed Entity Framework in nuget pack manager
         public ModelsDbContext() : base("name=AkvelonTask")
         {
 
